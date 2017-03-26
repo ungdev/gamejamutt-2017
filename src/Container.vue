@@ -1,9 +1,9 @@
 <template>
-    <div class="gj-container">
-        <gj-presentation v-show="page === 'presentation'"></gj-presentation>
-        <gj-planning v-show="page === 'planning'"></gj-planning>
-        <gj-map v-show="page === 'map'"></gj-map>
-    </div>
+  <div class="gj-container">
+    <gj-presentation v-show="page === 'presentation'"></gj-presentation>
+    <gj-planning v-show="page === 'planning'"></gj-planning>
+    <gj-map v-show="page === 'map'"></gj-map>
+  </div>
 </template>
 
 <script>

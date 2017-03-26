@@ -17,7 +17,7 @@ new Vue({
     const fontLG = new FontFaceObserver('LeagueGothic')
 
     fontLG.load().then(() => {
-    document.body.className = 'gj--font-loaded'
+      document.body.className = 'gj--font-loaded'
     })
   }
 }).$mount('#app')

@@ -53,13 +53,13 @@ export default {
 }
 
 .gj-timeline::before {
+  background: #ddd;
   content: '';
+  height: 100%;
+  left: 38px;
   position: absolute;
   top: 0;
-  left: 38px;
-  height: 100%;
   width: 4px;
-  background: #ddd;
 }
 
 .gj-timeline__block {
@@ -70,18 +70,20 @@ export default {
 
 .gj-timeline__block__img {
   background-color: #bb3900;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white,
+              inset 0 2px 0 rgba(0, 0, 0, 0.08),
+              0 3px 0 4px rgba(0, 0, 0, 0.05);
+  height: 30px;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
   width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .gj-timeline__block__img > img {
-  position: relative;
   left: 7px;
+  position: relative;
   top: 7px;
 }
 

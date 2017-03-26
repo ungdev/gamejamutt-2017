@@ -26,18 +26,21 @@ import './assets/bg.jpg'
 
 export default {
   name: 'app',
+
   components: {
     'gj-button': GJButton,
     'gj-footer': GJFooter,
     'gj-menu': GJMenu,
     'gj-container': GJContainer
   },
+
   data () {
     return {
       logo,
       page: 'presentation'
     }
   },
+
   methods: {
     containerChange(page) {
       this.page = page
