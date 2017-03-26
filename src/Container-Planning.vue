@@ -17,7 +17,7 @@
 
       <div class="gj-timeline__block__content">
         <h2 class="gj--font-lg">Vendredi 28 Avril 17h — Début de la gamejam</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+        <p>Le sujet est révélé par un membre du jury Vendredi à 17h. Soyez présent avant pour avoir le temps de vous installer !</p>
       </div>
     </div>
     <div class="gj-timeline__block">
@@ -27,7 +27,7 @@
 
       <div class="gj-timeline__block__content">
         <h2 class="gj--font-lg">Dimanche 30 Avril 17h — Fin de l'événement</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+        <p>48h après le début de la compétition, les démonstrations commencent. Le jury délibère sur les meilleurs projets et annonce le gagnant qui recevront leurs lots !</p>
       </div>
     </div>
   </div>
