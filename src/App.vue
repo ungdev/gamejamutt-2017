@@ -109,4 +109,10 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+@media (max-width: 650px) {
+  .gj-app {
+    padding: 30px;
+  }
+}
 </style>

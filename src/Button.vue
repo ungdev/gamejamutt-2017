@@ -10,7 +10,6 @@ export default {
 
     computed: {
         buttonClass() {
-            console.log(this)
             return (this.light) ? 'gj-button gj-button--light gj--font-lg' : 'gj-button gj--font-lg'
         }
     }
