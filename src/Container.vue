@@ -3,6 +3,8 @@
     <gj-presentation v-show="page === 'presentation'"></gj-presentation>
     <gj-planning v-show="page === 'planning'"></gj-planning>
     <gj-map v-show="page === 'map'"></gj-map>
+    <gj-success v-show="page === 'success'"></gj-success>
+    <gj-error v-show="page === 'error'"></gj-error>
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import ContainerMap from './Container-Map.vue'
 import ContainerPlanning from './Container-Planning.vue'
 import ContainerPresentation from './Container-Presentation.vue'
+import ContainerSuccess from './Container-Success.vue'
+import ContainerError from './Container-Error.vue'
 
 export default {
   props: [ 'page' ],
@@ -17,7 +21,9 @@ export default {
   components: {
     'gj-map': ContainerMap,
     'gj-planning': ContainerPlanning,
-    'gj-presentation': ContainerPresentation
+    'gj-presentation': ContainerPresentation,
+    'gj-success': ContainerSuccess,
+    'gj-error': ContainerError
   }
 }
 </script>

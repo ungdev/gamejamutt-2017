@@ -35,9 +35,19 @@ export default {
   },
 
   data () {
+    let page = 'presentation'
+
+    if (location.search === '?success') {
+      page = 'success'
+    }
+
+    if (location.search === '?error') {
+      page = 'error'
+    }
+
     return {
       logo,
-      page: 'presentation'
+      page
     }
   },
 
