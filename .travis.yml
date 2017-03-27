@@ -11,7 +11,7 @@ script:
 - mv index.html public/public_html/
 - tar c public | ssh dokku@ung.utt.fr tar:in gamejam.utt.fr
 before_install:
-- openssl aes-256-cbc -K $encrypted_b20da4393c19_key -iv $encrypted_b20da4393c19_iv -in id_rsa.enc -out id_rsa -d
+- openssl aes-256-cbc -K $encrypted_b20da4393c19_key -iv $encrypted_b20da4393c19_iv -in .travis/id_rsa.enc -out .travis/id_rsa -d
 - apt-get update -y &>/dev/null
 - which ssh-keyscan || (apt-get install -y ssh &>/dev/null)
 - which git || (apt-get install -y git &>/dev/null)
