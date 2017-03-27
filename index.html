@@ -32,7 +32,34 @@
     <title>Game Jam UTT — 28 Avril 2017</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="gj">
+        <div class="gj-app">
+          <div class="gj-app__logo"></div>
+          <div class="gj-app__menu"></div>
+          <div class="gj-app__container"></div>
+          <div class="gj-app__button"></div>
+        </div>
+
+        <div class="gj-footer"></div>
+      </div>
+      <style type="text/css">
+        html, body { margin: 0; padding: 0; width: 100%; }
+        html { height: 100%; overflow-y: auto; }
+        body { color: #fff; display: flex; font-family: sans-serif; min-height: 100%; }
+        #app { display: flex; flex: 1; }
+        .gj { background-color: #093b60; flex: 1; }
+        .gj-app__logo { height: 129px; }
+        .gj-app { box-sizing: border-box; height: calc(100% - 80px); margin: 0 auto; max-width: 1200px; padding: 40px 100px; }
+        .gj-app__menu { background-color: #0a2538; color: #f9ff00; height: 50px; margin: 20px auto; max-width: 1200px; }
+        .gj-app__container { min-height: 380px; background-color: #1b5e8d; border: 3px solid #0a2538; margin: 0 auto 20px auto; max-width: 1200px; }
+        .gj-app__button { display: flex; height: 60px; margin: 0 auto; max-width: 1200px; background-color: #bb3900; border: 4px solid #0a2538; min-height: 40px; min-width: 200px; }
+        .gj-footer { background-color: rgba(0, 0, 0, 0.75); bottom: 0; height: 80px; left: 0; width: 100%; }
+        @media (max-width: 650px) {
+          .gj-app { padding: 30px; }
+        }
+      </style>
+    </div>
     <script async src="/dist/build.js"></script>
   </body>
 </html>

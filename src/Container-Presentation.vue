@@ -14,6 +14,7 @@
         <li>Une prise par personne</li>
         <li>Tables groupées pour cinq</li>
         <li>Nourriture faite maison et vendue à prix étudiant (4€ par plat)</li>
+        <li>Canettes, café, crèpes et croques en continu</li>
       </ul>
     </p>
 
