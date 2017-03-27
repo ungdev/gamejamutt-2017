@@ -9,7 +9,7 @@ script:
 - mkdir public/public_html/
 - mv dist public/public_html/dist
 - mv index.html public/public_html/
-- cd public && git init && git remote add origin dokku@ung.utt.fr:gamejam.utt.fr && git commit -a -m 'Push' && git push master -f
+- cd public && git init && git remote add origin dokku@ung.utt.fr:gamejam.utt.fr && git add . && git commit -a -m 'Push' && git push master -f
 before_install:
 - openssl aes-256-cbc -K $encrypted_b20da4393c19_key -iv $encrypted_b20da4393c19_iv -in .travis/id_rsa.enc -out .travis/id_rsa -d
 - mkdir -p ~/.ssh
