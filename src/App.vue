@@ -1,7 +1,7 @@
 <template>
   <div class="gj" data-aload>
     <div class="gj-app">
-      <img class="gj-app__logo" :data-aload="logo" alt="Game Jam UTT Logo">
+      <img class="gj-app__logo" :data-aload="logo" alt="Game Jam UTT Logo" height="129">
 
       <gj-menu @menuChange="containerChange"></gj-menu>
 
@@ -130,6 +130,7 @@ body {
 }
 
 .gj-app__logo {
+  height: 129px;
   display: block;
   margin: 0 auto;
 }
