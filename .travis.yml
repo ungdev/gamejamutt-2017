@@ -13,7 +13,8 @@ script:
 before_install:
 - openssl aes-256-cbc -K $encrypted_b20da4393c19_key -iv $encrypted_b20da4393c19_iv -in .travis/id_rsa.enc -out .travis/id_rsa -d
 - mkdir -p ~/.ssh
+- chmod 600 .travis/id_rsa
 - eval $(ssh-agent -s)
-- ssh-add <(echo .travis/id_rsa)
+- ssh-add .travis/id_rsa
 - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
 - ssh-keyscan -H ung.utt.fr >> ~/.ssh/known_hosts
