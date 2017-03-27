@@ -6,6 +6,7 @@ node_js:
 - 7
 script:
 	- yarn build
+	- mkdir public/public_html/
 	- mv dist public/public_html/dist
 	- mv index.html public/public_html/
 	- tar c public | ssh dokku@ung.utt.fr tar:in gamejam.utt.fr
