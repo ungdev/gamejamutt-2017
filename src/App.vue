@@ -74,7 +74,14 @@ body {
          url('./assets/leaguegothic-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'DroidSans';
+    src: url('./assets/droidsans.woff2') format('woff2'),
+         url('./assets/droidsans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 [data-aload] { background-image: none !important; }
@@ -91,6 +98,10 @@ body {
   font-family: LeagueGothic;
   font-size: 24px;
   letter-spacing: 0.5px;
+}
+
+.gj--font-loaded {
+  font-family: DroidSans;
 }
 
 .gj-app {
