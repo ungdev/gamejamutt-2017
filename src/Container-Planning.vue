@@ -26,8 +26,8 @@
       </div>
 
       <div class="gj-timeline__block__content">
-        <h2 class="gj--font-lg">Dimanche 30 Avril 17h — Fin de l'événement</h2>
-        <p>48h après le début de la compétition, les démonstrations commencent. Le jury délibère sur les meilleurs projets et annonce le gagnant qui recevront leurs lots !</p>
+        <h2 class="gj--font-lg">Dimanche 30 Avril 16h — Fin de l'événement</h2>
+        <p>Deux jours après le début de la compétition, les démonstrations commencent. Le jury délibère sur les meilleurs projets et annonce le gagnant qui recevront leurs lots !</p>
       </div>
     </div>
   </div>
