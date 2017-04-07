@@ -3,6 +3,7 @@
     <img class="gj-footer__partner" :data-aload="utt" width="148" height="50">
     <img class="gj-footer__partner" :data-aload="cc" width="50" height="50">
     <img class="gj-footer__partner" :data-aload="orange" width="50" height="50">
+    <img class="gj-footer__partner" :data-aload="bde" width="86" height="50">
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import utt from './assets/utt.png'
 import cc from './assets/cc.png'
 import orange from './assets/orange.png'
+import bde from './assets/bde.png'
 
 export default {
   data() {
     return {
       utt,
       cc,
-      orange
+      orange,
+      bde
     }
   }
 }
